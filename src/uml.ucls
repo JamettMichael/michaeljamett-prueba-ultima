@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Modelo.Lavadora" project="PruebaFinal" 
+    file="/PruebaFinal/src/Modelo/Lavadora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="181" x="783" y="427"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Vista.Main" project="PruebaFinal" file="/PruebaFinal/src/Vista/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="177" y="-54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="3" language="java" name="Controlador" project="PruebaFinal" file="/PruebaFinal/src/Controlador" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="330" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="Interface" project="PruebaFinal" file="/PruebaFinal/src/Interface" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="471" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="Modelo.Television" project="PruebaFinal" 
+    file="/PruebaFinal/src/Modelo/Television.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="154" x="1004" y="427"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Controlador.Controladora" project="PruebaFinal" 
+    file="/PruebaFinal/src/Controlador/Controladora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="98" x="612" y="-54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="Interface.Calcular" project="PruebaFinal" 
+    file="/PruebaFinal/src/Interface/Calcular.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="103" x="750" y="-54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="Modelo.Electrodomesticos" project="PruebaFinal" 
+    file="/PruebaFinal/src/Modelo/Electrodomesticos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="233" x="893" y="-54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="Modelo" project="PruebaFinal" file="/PruebaFinal/src/Modelo" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="1166" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <component id="10" language="java" name="src" project="PruebaFinal" file="/PruebaFinal/src" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="1307" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <package id="11" language="java" name="Vista" project="PruebaFinal" file="/PruebaFinal/src/Vista" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="1461" y="-54"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
